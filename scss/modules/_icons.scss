@@ -1,0 +1,32 @@
+.mobile-ico {
+	padding-top: 19px;
+
+	a {
+		color: #005A98;
+		&:active,
+		&:focus {
+			text-decoration: none;
+		}
+	}
+}
+
+.fa.fa-bars {
+	font-size: 30px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.fa.fa-times {
+	color: whitesmoke;
+	// &:hover {
+	//     color: red;
+	// }
+}
+
+.fa.fa-angle-double-right {
+	margin-left: 5px;
+}
+
+.fa.fa-pencil {
+	margin-right: 7px;
+}

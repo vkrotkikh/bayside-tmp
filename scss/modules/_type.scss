@@ -1,0 +1,110 @@
+/* Types start */
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #005A98;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+h6 {
+    font-size: 16px;
+    margin-bottom: 7px;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.5;
+    color: #5a5b50;
+    margin-bottom: 20px;
+}
+
+.slider-title {
+    font-size: 26px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.page-header {
+    padding-bottom: 0px;
+    margin: 10px 0 0px;
+    border-bottom: 0px solid #eeeeee;
+}
+
+.slider-text{
+    font-size: 16px;
+    color: #D5F4FF;
+    text-align: left;
+}
+
+.slider-link{
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.italic-text{
+    font-style: italic;
+    text-align: left;
+    color: #036D92;
+}
+
+.big{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.extra-lg {
+    font-size: 27px;
+    font-weight: 900;
+}
+
+.list-heading{
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #005A98;
+}
+
+.close-form {
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+
+}
+
+
+
+
+
+
+/* Type end */

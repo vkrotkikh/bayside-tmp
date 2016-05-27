@@ -1,0 +1,22 @@
+.breadcrumb-holder {
+	position: fixed;
+	z-index: 111; // header-botom's z-index is 110
+	top: 49px;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+
+	&.-zindex0 {
+		z-index: 0;
+	}
+}
+
+.breadcrumb {
+	display: inline-block;
+	margin: 0;
+	border-radius: 0;
+
+	.dropdown-menu {
+		text-align: center;
+	}
+}

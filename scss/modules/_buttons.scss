@@ -1,0 +1,88 @@
+/* buttons start */
+
+.btn-holder{
+	margin-bottom: 15px;
+}
+
+.btn-success {
+	background: #CFEEF9;
+	border: 1px solid #005A98;
+	color: #5a5b50;
+}
+
+.btn-transparent {
+	background: transparent;
+	color: #5a5b50 ;
+}
+
+.btn-md{
+	font-size: 16px;
+}
+
+.btn-lg {
+	font-size: 20px;
+}
+
+.btn-radius-no {
+	border-radius: 0;
+}
+
+.btn-mega-lg {
+	padding: 12px 15px;
+}
+
+.btn-service {
+	color: #5a5b50;
+	background-color: #f2f1ea;
+	border: 2px solid #87887e;
+	margin-top: 15px;
+
+	&:hover,
+	&:focus {
+		
+	}
+}
+
+.search-btn {
+	display: inline-block;
+	height: 100%;
+	width: 42px;
+	height: 42px;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	text-align: center;
+	transition: color .3s;
+	line-height: 46px;
+
+	&:hover,
+	&:focus {
+		outline: none;
+		color: $brand-primary;
+	}
+
+	.fa {
+		font-size: 16px;
+		line-height: 34px;
+	}
+}
+
+.btn-close-wrapper {
+	padding: 0 20px 0 0;
+}
+
+.btn-close {
+	float: right;
+	cursor: pointer;
+	width: 42px;
+	height: 47px;
+	padding: 10px 5px 5px;
+	text-align: center;
+	line-height: 32px;
+	background-color: #717171;
+
+	.fa {
+		font-size: 30px;
+	}
+}
+/* buttons end */

@@ -1,0 +1,30 @@
+.mobile-quick-links-parent {
+	height: 77px;
+}
+
+.mobile-quick-links {
+	top: 102px;
+
+	> li {
+
+		> a {
+			font-size: 12px;
+			padding: 10px;
+		}
+	}
+}
+
+.footer-mobile-menu {
+	> li {
+		padding: 10px 0 3px;
+
+		> a {
+			font-size: 12px;
+		}
+	}
+
+	.fa {
+		font-size: 18px;
+		margin: 0 0 7px;
+	}
+}

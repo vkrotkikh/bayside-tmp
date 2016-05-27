@@ -1,0 +1,23 @@
+.main_slider_pager {
+	position: relative;
+	background: black;
+	width: 100%;
+	text-align: center;
+	line-height: 10px;
+	background: rgba(41, 41, 41, 0.9);
+}
+
+.slider-play {
+	display: block;
+}
+
+.headings-arrow {
+	display: block;
+}
+
+.main_slider_item {
+
+	&.-b {
+		bottom: 30px;
+	}
+}
