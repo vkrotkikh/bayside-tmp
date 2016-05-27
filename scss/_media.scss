@@ -32,6 +32,9 @@
 	.show-media-md {
 		display: block;
 	}
+	.logo-holder {
+		margin: 10px auto;
+	}
 	.search {
 		width: auto;
 		float: none;
@@ -79,6 +82,9 @@
 	.show-on-mobile {
 		display: block;
 	}
+	.header {
+		// padding: 15px 0;
+	}
 
 	.retina-logo {
 		width: 250px;
@@ -101,6 +107,9 @@
 		width: 100%;
 		height: 1000%;
 		transition: none;
+		a {
+			width:100%;
+		}
 	}
 	.aside-menu-right {
 		transition: none;
@@ -178,6 +187,10 @@
 	.slider-link {
 		display: none;
 	}
+	.logo-holder {
+		margin: 3px auto;
+		width: 140px;
+	}
 	.header-bottom {
 		background-color: #fff;
 	}
@@ -241,6 +254,13 @@
 	}
 	.fa.fa-bars {
 		font-size: 26px;
+	}
+	.search-btn {
+		margin: 3px 20px 0 0;
+
+		.fa {
+			font-size: 26px;
+		}
 	}
 }
 

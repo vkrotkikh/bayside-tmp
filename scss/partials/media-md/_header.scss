@@ -2,25 +2,13 @@
 	position: fixed;
 	top: 0;
 	padding: 0;
-
-}
-
-.header-fixed {
-	.logo-holder {
-		margin: 7px auto;
-	}
 }
 
 .header {
-	height: 57px;
+	height: 49px;
 }
 
 .hide-on-mobile,
 .hide-media-md {
 	display: none;
-}
-
-.logo-holder {
-	margin: 7px auto;
-	width: 140px;
 }

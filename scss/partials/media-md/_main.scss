@@ -7,7 +7,7 @@
 }
 
 .main {
-	padding: 57px 0 0;
+	padding: 49px 0 0;
 }
 
 .hide-on-desctop {
@@ -19,51 +19,5 @@
 }
 
 .cd-top {
-	bottom: 100px;
-}
-
-.md-height-child {
-	min-height: 39px;
-	padding: 0 15px;
-}
-
-.nav-heading-panel {
-	position: fixed;
-	z-index: 109;
-	top: 57px; // 57px
-	width: 100%;
-	transition: top .3s;
-
-	// &.-fixed {
-	// 	position: fixed;
-	// 	top: 57px;
-	// 	left: 0;
-	// 	width: 100%;
-	// 	transition: top .3s;
-	// }
-
-
-	&.-hide {
-		top: 0;
-	}
-}
-
-.nav-heading-panel + .nav-accordion {
-	position: fixed;
-	top: 96px;
-	z-index: 110;
-	width: 100%;
-
-	&.-hide {
-		display: none;
-	}
-}
-
-.thumbnail {
-	padding-bottom: 25px;
-	margin-bottom: 0;
-}
-
-.text-holder {
-	padding: 0 15px;
+	bottom: 152px;
 }
